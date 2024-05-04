@@ -6,8 +6,16 @@ html,body{
 	font-family: Lato, 'Helvetica Neue', Arial, sans-serif;
 }
 
-h1,h2,h3,h4,h5{
-	font-family: 'Crimson Text', Georgia, 'Times New Roman', serif;
+h1{
+	font-family: "superior-title", serif;
+font-weight: 400px;
+font-style: normal;
+}
+
+h2 {
+	font-family: "superior-title", serif;
+font-weight: 400;
+font-style: italic;
 }
 
 
