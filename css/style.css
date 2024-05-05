@@ -2,14 +2,20 @@
 
 /** Addtional fonts go here: https://gwfh.mranftl.com/fonts **/
 
-html,body{
+/** html,body{
 	font-family: Lato, 'Helvetica Neue', Arial, sans-serif;
 }
+**/
 
-h1{
+
+h1 {
 	font-family: "superior-title", serif;
 font-weight: 400px;
 font-style: normal;
+}
+
+ul {
+	font-family: "superior-title", serif;
 }
 
 h2 {
@@ -18,14 +24,16 @@ font-weight: 400;
 font-style: italic;
 }
 
+p {
+	font-family: "times-new-roman", serif;
+
+}
 
 .background-image-changer{
   transition: background 0.3s ease-out;
   background-size: cover;
   background-position: center;
 }
-
-
 
 
 /** expand utlities/sizing to include 25 and 50 **/
@@ -75,3 +83,42 @@ font-style: italic;
 [data-sticky-graphic] {
 	top: 35%;
 }
+
+/** .pquote {
+    width: 600px;
+    background: #31593F;
+    font-weight: bold;
+    font-size: ;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+**/
+
+body {
+  background-color: black;
+}
+
+h1, h2, p, h3, ul {
+	color: white;
+}
+
+.byline {
+	font-size: 50px;
+}
+
+.aside_sidebar {
+  width: 60%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+ /** font-style: italic; **/
+  color: #29627e;
+  font-size: 2rem;
+}
+
+.aside_sidebar p {
+  margin: 0.5rem;
+}
+
