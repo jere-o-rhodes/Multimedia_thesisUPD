@@ -9,9 +9,9 @@
 
 
 h1 {
-	font-family: "superior-title", serif;
-font-weight: 400px;
-font-style: normal;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 ul {
@@ -19,9 +19,9 @@ ul {
 }
 
 h2 {
-	font-family: "superior-title", serif;
-font-weight: 400;
-font-style: italic;
+	font-family: "DM Serif Display", serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 p {
@@ -96,12 +96,19 @@ p {
 **/
 
 body {
-  background-color: black;
+  background-color: #FFFCF0;
 }
 
-h1, h2, p, h3, ul {
+.pew-graphic{
+	width: 50%;
+	height:auto;
+}
+
+
+/** h1, h2, p, h3, ul {
 	color: white;
 }
+**/
 
 .byline {
 	font-size: 50px;
